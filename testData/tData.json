@@ -1,0 +1,6 @@
+{
+    "url":"https://www.saucedemo.com/",
+    "userName":"standard_user",
+    "password":"secret_sauce",
+    "assertLogin":"https://www.saucedemo.com/inventory.html"
+}

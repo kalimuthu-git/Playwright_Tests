@@ -1,0 +1,27 @@
+[
+{
+    "userName":"standard_user",
+    "password":"secret_sauce"
+},
+{
+    "userName":"standard",
+    "password":"secret_sauce"
+},
+{
+    "userName":"standard_user",
+    "password":"secret_"
+},
+{
+    "userName":"@#$%^&*()!@",
+    "password":"secret_sauce"
+},
+{
+    "userName":"standard_user",
+    "password":"             "
+},
+{
+    "userName":"             ",
+    "password":"             "
+}
+]
+

@@ -1,0 +1,13 @@
+APIResponse: 200 OK
+  Date: Wed, 30 Sep 2026 16:06:37 GMT
+  Content-Type: text/html; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  access-control-allow-origin: *
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nDYX1OLAU8RtWzMMCoTL%2FN3hkmbVGmpD6eQbZqKF6ZZq%2FHcidytg0TGwXX3T%2FLBwXjkWHqahlb6x87nbz%2BJaUStb%2Fb9uACCIC5pRb0DqKrFfWG9isbONC8%2B%2BxJXZf8Cu%2FLtalCql8G2p%2FKr8bxUq"}]}
+  x-powered-by: Express
+  cf-cache-status: DYNAMIC
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a43479d098657e08-SIN

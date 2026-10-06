@@ -1,0 +1,44 @@
+Project Name 	Amazon 											
+Module Name 	Login Page 											
+Created By 	Aishwarya 											
+Created Date 	19-08-2026											
+Review By 												
+Review Date 												
+												
+Test Scenario ID 	Test Scenario 	Test Case ID 	Test Case Description 	Test Steps 	PreConditions	Test Data 	Post Conditions 	Expected Result	Actual Result	Test Status 	Priority 	Comments if any 
+TS_001	Verify login functionality of the application 	TC_Login_001	Verify logo of the Product 	1. Checking Colour, Spelling , Font Size and Font Style	Open the Application and navigate to login page 	Not Applicable	Logo should be dispayed 	Logo should be dispayed 		Pass		
+		TC_Login_002	Verify email or mobile number textbox is displayed and enabled 	1. Checking Text box displayed and Enabled	Open the Application and navigate to login page 	Not Applicable	Text Box must enabled and displayed 	Text Box must enabled and displayed 				
+		TC_Login_003	Verify user is able to enter valid email or mobile number 	1. User should enter valid mobile number or email and click continue 	Open the Application and navigate to login page 	<9080883631>, <ice.sanju@gmail>	User should see send OTP Page	User should see send OTP Page				
+		TC_Login_004	Verify email or mobile number field with unregistered credentails 	1. User should unregistered mobile no. or email and Click continue 	Open the Application and navigate to login page 	46723, fdhjk	User should see error message displaying "Invalid email address"	User should see error message displaying "Invalid email address"				
+		TC_Login_005	Verify login using invalid email or mobile number 	1. User should enter invalid mobile no. or email 	Open the Application and navigate to login page 	476923856, kfjhdhvd	User should see error message displaying "Invalid email address"	User should see error message displaying "Invalid email address"				
+		TC_Login_006	Verify login using blank data	1. Leave blank text Box	Open the Application and navigate to login page 		"User should see error message displaying ""Enter your mobile number or email
+"""	"User should see error message displaying ""Enter your mobile number or email
+"""				
+		TC_Login_007	Verify login using illegal arguments 	1. User enter special characters in email or mobile number field 	Open the Application and navigate to login page 	%$^%&^*	User should see error message displaying "Invalid email address"	User should see error message displaying "Invalid email address"				
+		TC_Login_008	Verify continue button is displayed and enabled 	1. User should able to see and click continue 	Open the Application and navigate to login page 	Not Applicable	User should click continue button 	User should click continue button
+
+
+
+
+
+Module :  Loan Module
+
+Browser Version : Chrome V1.12.3.1
+
+Pre - Conditions :  User should be logged into to the application , User must have loan id 
+
+Test Environment : QA Environment 
+
+Test Data : - 
+
+Expected Result: User should able to enter the amount and click repayment to repay the loan amount AND should displayed message as “Transaction Successful“
+
+Actual Result : User is able to enter the amount and able to click the button but repayment of amount is not functioning
+
+Steps to Reproduce :  Open the application , Go to Loan Module , Enter Amount , Enter Loan Id  ,Click Repayment 
+
+Frequency : 5/5 always
+
+Severity : High
+
+Priority : High
